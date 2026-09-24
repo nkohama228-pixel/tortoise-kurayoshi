@@ -68,8 +68,12 @@
   .g-voice{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
   .g-company{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;}
   .g-access{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
-  .line-banner{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px 20px;background:var(--line-brand);padding:12px 20px;}
-  .line-banner span{white-space:nowrap;}
+  .line-banner{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px 26px;background:var(--line-brand);padding:12px 20px;}
+  .line-banner-item{display:flex;align-items:center;gap:9px;color:#fff;text-decoration:none;}
+  .line-banner-item span{white-space:nowrap;}
+  .line-banner-item:hover{opacity:.88;}
+  .line-banner-sep{width:1px;height:20px;background:rgba(255,255,255,.4);}
+  @media (max-width:480px){ .line-banner-sep{display:none;} }
   @media (max-width:900px){
     nav.desk-nav{display:none;}
     .header-tel-label{display:none !important;}
@@ -94,11 +98,23 @@
 <div style="width:100%;min-height:100vh;display:flex;flex-direction:column;background:#fff;">
 
   <!-- LINE BANNER -->
-  <a href="https://lin.ee/70R4Qso" target="_blank" rel="noopener" class="line-banner">
-    <img src="assets/line-qr.png" alt="公式LINE QRコード" style="width:44px;height:44px;border-radius:8px;background:#fff;padding:3px;flex-shrink:0;">
-    <span style="color:#fff;font-weight:900;font-size:14.5px;">公式LINE　お友だち登録受付中！</span>
-    <span style="color:#fff;font-weight:700;font-size:13px;text-decoration:underline;text-underline-offset:3px;">友だち追加はこちら ›</span>
-  </a>
+  <div class="line-banner">
+    <a href="https://lin.ee/70R4Qso" target="_blank" rel="noopener" class="line-banner-item">
+      <img src="assets/line-qr.png" alt="公式LINE QRコード" style="width:40px;height:40px;border-radius:8px;background:#fff;padding:3px;flex-shrink:0;">
+      <span style="font-weight:900;font-size:14.5px;">公式LINE</span>
+      <span style="font-weight:700;font-size:13px;text-decoration:underline;text-underline-offset:3px;">友だち追加はこちら ›</span>
+    </a>
+    <span class="line-banner-sep"></span>
+    <a href="https://www.goo-net.com/usedcar_shop/1001903/detail.html" target="_blank" rel="noopener" class="line-banner-item">
+      <img src="assets/goonet-icon.png" alt="グーネット" style="width:30px;height:30px;border-radius:7px;background:#fff;flex-shrink:0;">
+      <span style="font-weight:700;font-size:13.5px;">グーネットで見る</span>
+    </a>
+    <span class="line-banner-sep"></span>
+    <a href="https://www.carsensor.net/shop/tottori/304116001/" target="_blank" rel="noopener" class="line-banner-item">
+      <img src="assets/carsensor-icon.png" alt="カーセンサー" style="width:30px;height:30px;border-radius:7px;background:#fff;flex-shrink:0;">
+      <span style="font-weight:700;font-size:13.5px;">カーセンサーで見る</span>
+    </a>
+  </div>
 
   <!-- HEADER -->
   <header style="position:sticky;top:0;z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);">
