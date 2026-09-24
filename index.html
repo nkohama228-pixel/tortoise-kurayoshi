@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>株式会社トータス｜鳥取県倉吉市の中古車販売・整備・車検・鈑金塗装</title>
+<meta name="description" content="株式会社トータス（鳥取県倉吉市）は、中古車販売・一般整備・車検整備・鈑金塗装をワンストップで承る陸運局認証工場完備の自動車販売店です。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="株式会社トータス｜鳥取県倉吉市の中古車販売・整備・車検・鈑金塗装">
+<meta property="og:description" content="中古車販売から一般整備・車検整備・鈑金塗装まで。陸運局認証工場完備で安心の鳥取県倉吉市の自動車販売店です。">
+<meta property="og:image" content="assets/shop.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green-900:#123322;
+    --green-800:#16452c;
+    --green-700:#1e7a3d;
+    --green-600:#2c9c4a;
+    --green-100:#e4f4e8;
+    --green-50:#f3faf5;
+    --accent-gold:#e0a83e;
+    --line-brand:#06c755;
+    --ink:#17211a;
+    --ink-soft:#4b564e;
+    --paper:#ffffff;
+    --line:#dfe8e1;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:"Noto Sans JP",system-ui,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;}
+  h1,h2,h3{margin:0;font-weight:900;letter-spacing:.02em;}
+  p{margin:0;}
+  a{color:inherit;text-decoration:none;}
+  ul{margin:0;padding:0;list-style:none;}
+  button{font-family:inherit;cursor:pointer;}
+  img{max-width:100%;}
+  .nw{white-space:nowrap;}
+  .wrap{max-width:1120px;margin:0 auto;padding-inline:24px;}
+  .eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;color:var(--green-700);text-transform:uppercase;white-space:nowrap;}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;border-radius:999px;font-weight:700;font-size:15px;border:2px solid transparent;transition:transform .15s ease;white-space:nowrap;}
+  .btn:hover{transform:translateY(-2px);}
+  .btn-primary{background:var(--green-700);color:#fff;}
+  .btn-ghost{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.55);}
+  .btn-outline{background:transparent;color:var(--green-800);border-color:var(--green-700);}
+  .card{background:#fff;border:1px solid var(--line);border-radius:18px;}
+  .card h3{white-space:nowrap;}
+  .section{padding:88px 0;}
+  .section-head{max-width:640px;margin:0 auto 48px;text-align:center;display:flex;flex-direction:column;gap:12px;align-items:center;}
+  .section-head h2{font-size:clamp(26px,3.4vw,36px);color:var(--green-900);}
+  .section-head p{color:var(--ink-soft);font-size:15.5px;line-height:1.9;}
+  .icon-badge{width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center;background:var(--green-100);color:var(--green-700);flex-shrink:0;}
+  nav.desk-nav{display:flex;gap:28px;}
+  nav.desk-nav a{font-size:14.5px;font-weight:700;color:var(--green-900);padding:6px 2px;border-bottom:2px solid transparent;white-space:nowrap;}
+  nav.desk-nav a:hover{border-color:var(--green-600);}
+  .mobile-menu-btn{display:none;}
+  .mobile-panel{display:none;}
+  .mobile-panel.open{display:block;}
+  .g-usp{display:grid;grid-template-columns:repeat(4,1fr);gap:0;}
+  .g-usp>div{white-space:nowrap;}
+  .g-service{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;}
+  .g-reason{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  .g-shop{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;}
+  .g-message{display:grid;grid-template-columns:.85fr 1.15fr;gap:48px;align-items:center;}
+  .g-inventory{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
+  .g-voice{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  .g-company{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;}
+  .g-access{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
+  .line-banner{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px 20px;background:var(--line-brand);padding:12px 20px;}
+  .line-banner span{white-space:nowrap;}
+  @media (max-width:900px){
+    nav.desk-nav{display:none;}
+    .header-tel-label{display:none !important;}
+    .mobile-menu-btn{display:flex;}
+    .g-shop,.g-message,.g-company,.g-access{grid-template-columns:1fr !important;gap:32px !important;}
+    .g-service,.g-reason,.g-inventory,.g-voice{grid-template-columns:repeat(2,1fr) !important;}
+    .g-usp{grid-template-columns:repeat(2,1fr) !important;}
+    .g-usp>div{border-right:none !important;border-bottom:1px solid rgba(255,255,255,.14);}
+    .g-usp>div:nth-child(2n){border-right:none !important;}
+  }
+  @media (max-width:600px){
+    .section{padding:56px 0;}
+    .hero-title{font-size:30px !important;}
+    .g-service,.g-reason,.g-inventory,.g-voice,.g-usp{grid-template-columns:1fr !important;}
+    .g-usp>div{border-right:none !important;border-bottom:1px solid rgba(255,255,255,.14);}
+    .g-usp>div:last-child{border-bottom:none;}
+  }
+</style>
+</head>
+<body>
+
+<div style="width:100%;min-height:100vh;display:flex;flex-direction:column;background:#fff;">
+
+  <!-- LINE BANNER -->
+  <a href="https://lin.ee/70R4Qso" target="_blank" rel="noopener" class="line-banner">
+    <img src="assets/line-qr.png" alt="公式LINE QRコード" style="width:44px;height:44px;border-radius:8px;background:#fff;padding:3px;flex-shrink:0;">
+    <span style="color:#fff;font-weight:900;font-size:14.5px;">公式LINE　お友だち登録受付中！</span>
+    <span style="color:#fff;font-weight:700;font-size:13px;text-decoration:underline;text-underline-offset:3px;">友だち追加はこちら ›</span>
+  </a>
+
+  <!-- HEADER -->
+  <header style="position:sticky;top:0;z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);">
+    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;height:76px;gap:16px;">
+      <a href="#top" style="display:flex;align-items:center;gap:12px;">
+        <img src="assets/logo.jpg" alt="株式会社トータス ロゴ" style="height:46px;width:auto;display:block;border-radius:8px;">
+        <span style="display:flex;flex-direction:column;line-height:1.25;">
+          <strong class="nw" style="font-size:19px;color:var(--green-900);letter-spacing:.03em;">株式会社トータス</strong>
+          <span class="nw" style="font-size:11px;color:var(--ink-soft);letter-spacing:.08em;">中古車販売・整備・車検・鈑金塗装</span>
+        </span>
+      </a>
+
+      <nav class="desk-nav">
+        <a href="#service">サービス</a>
+        <a href="#reason">選ばれる理由</a>
+        <a href="#shop">店舗紹介</a>
+        <a href="#inventory">在庫車両</a>
+        <a href="#voice">お客様の声</a>
+        <a href="#company">会社概要</a>
+        <a href="#access">アクセス</a>
+      </nav>
+
+      <div style="display:flex;align-items:center;gap:14px;">
+        <a href="tel:0858245071" class="header-tel-label" style="display:flex;align-items:center;gap:8px;">
+          <span style="width:38px;height:38px;border-radius:999px;background:var(--green-700);color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </span>
+          <span style="display:flex;flex-direction:column;line-height:1.2;">
+            <span class="nw" style="font-size:10.5px;color:var(--ink-soft);">お電話でのお問い合わせ</span>
+            <strong class="nw" style="font-size:17px;color:var(--green-900);">0858-24-5071</strong>
+          </span>
+        </a>
+        <button id="menuBtn" class="mobile-menu-btn" aria-label="メニューを開く" aria-expanded="false" style="width:44px;height:44px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--green-900);">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobilePanel" class="mobile-panel">
+      <div style="border-top:1px solid var(--line);background:#fff;">
+        <nav style="display:flex;flex-direction:column;padding:8px 24px 20px;">
+          <a href="#service" class="mobile-link" style="padding:12px 0;font-weight:700;border-bottom:1px solid var(--line);">サービス</a>
+          <a href="#reason" class="mobile-link" style="padding:12px 0;font-weight:700;border-bottom:1px solid var(--line);">選ばれる理由</a>
+          <a href="#shop" class="mobile-link" style="padding:12px 0;font-weight:700;border-bottom:1px solid var(--line);">店舗紹介</a>
+          <a href="#inventory" class="mobile-link" style="padding:12px 0;font-weight:700;border-bottom:1px solid var(--line);">在庫車両</a>
+          <a href="#voice" class="mobile-link" style="padding:12px 0;font-weight:700;border-bottom:1px solid var(--line);">お客様の声</a>
+          <a href="#company" class="mobile-link" style="padding:12px 0;font-weight:700;border-bottom:1px solid var(--line);">会社概要</a>
+          <a href="#access" class="mobile-link" style="padding:12px 0;font-weight:700;">アクセス</a>
+          <a href="tel:0858245071" style="margin-top:16px;text-align:center;padding:14px;border-radius:999px;background:var(--green-700);color:#fff;font-weight:700;">0858-24-5071 に電話する</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" style="position:relative;overflow:hidden;min-height:clamp(520px,78vh,720px);display:flex;flex-direction:column;justify-content:flex-end;">
+    <img src="assets/shop.jpg" alt="株式会社トータス 店舗外観" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;">
+    <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(6,26,15,.96) 0%, rgba(6,26,15,.72) 38%, rgba(6,26,15,.18) 68%, rgba(6,26,15,0) 100%);"></div>
+    <div class="wrap" style="position:relative;padding:48px 24px 56px;display:flex;flex-direction:column;gap:22px;max-width:760px;">
+      <span style="display:inline-flex;align-items:center;gap:8px;color:var(--accent-gold);font-weight:700;font-size:13px;letter-spacing:.14em;">
+        鳥取県倉吉市 ／ 陸運局認証工場完備
+      </span>
+      <h1 class="hero-title" style="font-size:clamp(28px,4.6vw,50px);color:#fff;line-height:1.4;">
+        あなたの愛車の「安心」を、<br>これからも支えます。
+      </h1>
+      <p style="color:rgba(255,255,255,.92);font-size:16px;line-height:2;max-width:560px;">
+        中古車販売から一般整備・車検整備・鈑金塗装まで、車に関することなら何でもお任せください。<br>
+        代表 小浜英樹をはじめスタッフ一同、丁寧な対応でお迎えいたします。
+      </p>
+      <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:8px;">
+        <a href="tel:0858245071" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          0858-24-5071 に電話する
+        </a>
+        <a href="#inventory" class="btn btn-ghost">在庫車両を見る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- USP STRIP -->
+  <section style="background:var(--green-900);">
+    <div class="wrap g-usp">
+      <div style="display:flex;align-items:center;justify-content:center;gap:10px;padding:20px 14px;border-right:1px solid rgba(255,255,255,.14);">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><path d="M12 2 3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7z"/></svg>
+        <span style="color:#fff;font-size:13px;font-weight:700;">陸運局認証工場完備</span>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:center;gap:10px;padding:20px 14px;border-right:1px solid rgba(255,255,255,.14);">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+        <span style="color:#fff;font-size:13px;font-weight:700;">オートローンご相談OK</span>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:center;gap:10px;padding:20px 14px;border-right:1px solid rgba(255,255,255,.14);">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><path d="M3 16V6a1 1 0 0 1 1-1h10v11"/><path d="M14 9h4l3 3v4h-2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+        <span style="color:#fff;font-size:13px;font-weight:700;">全国どこでも陸送対応</span>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:center;gap:10px;padding:20px 14px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+        <span style="color:#fff;font-size:13px;font-weight:700;">口コミ評価5.0（8件）</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="service" class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Service</span>
+        <h2>事業内容</h2>
+        <p>中古車の販売から整備・車検・鈑金塗装まで、クルマに関することをワンストップで承ります。</p>
+      </div>
+      <div class="g-service">
+        <div class="card" style="padding:30px 24px;display:flex;flex-direction:column;gap:14px;">
+          <div class="icon-badge"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16V6a1 1 0 0 1 1-1h10v11"/><path d="M14 9h4l3 3v4h-2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+          <h3 style="font-size:18px;color:var(--green-900);">中古車販売</h3>
+          <p style="font-size:14px;color:var(--ink-soft);line-height:1.9;">ご要望に合わせて、お客様にぴったりの一台をお探しいたします。ローンのご相談も歓迎です。</p>
+        </div>
+        <div class="card" style="padding:30px 24px;display:flex;flex-direction:column;gap:14px;">
+          <div class="icon-badge"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3 style="font-size:18px;color:var(--green-900);">一般整備</h3>
+          <p style="font-size:14px;color:var(--ink-soft);line-height:1.9;">日常点検からオイル交換、故障修理まで。愛車に長く安心して乗っていただけるようサポートします。</p>
+        </div>
+        <div class="card" style="padding:30px 24px;display:flex;flex-direction:column;gap:14px;">
+          <div class="icon-badge"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 2 3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7z"/></svg></div>
+          <h3 style="font-size:18px;color:var(--green-900);">車検整備</h3>
+          <p style="font-size:14px;color:var(--ink-soft);line-height:1.9;">陸運局認証工場ならではの確かな技術で、丁寧な検査・整備を行い法定基準に適合させます。</p>
+        </div>
+        <div class="card" style="padding:30px 24px;display:flex;flex-direction:column;gap:14px;">
+          <div class="icon-badge"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></div>
+          <h3 style="font-size:18px;color:var(--green-900);">鈑金塗装</h3>
+          <p style="font-size:14px;color:var(--ink-soft);line-height:1.9;">事故やキズの修理も、熟練スタッフが仕上がりの美しさにこだわって施工いたします。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REASON -->
+  <section id="reason" class="section" style="background:var(--green-50);">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Reason</span>
+        <h2>トータスが選ばれる理由</h2>
+      </div>
+      <div class="g-reason">
+        <div style="display:flex;gap:18px;padding:26px;background:#fff;border-radius:18px;border:1px solid var(--line);">
+          <div class="icon-badge" style="background:var(--green-700);color:#fff;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7z"/></svg>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:6px;">
+            <h3 style="font-size:16.5px;color:var(--green-900);">認証工場完備＆保証付き</h3>
+            <p style="font-size:14px;color:var(--ink-soft);line-height:1.8;">徹底的に整備した自信ある在庫車と、購入後も安心のアフターフォロー体制をご用意しています。</p>
+          </div>
+        </div>
+        <div style="display:flex;gap:18px;padding:26px;background:#fff;border-radius:18px;border:1px solid var(--line);">
+          <div class="icon-badge" style="background:var(--green-700);color:#fff;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:6px;">
+            <h3 style="font-size:16.5px;color:var(--green-900);">各種オートローンお取り扱い</h3>
+            <p style="font-size:14px;color:var(--ink-soft);line-height:1.8;">各種オートローンを取り扱っております。遠方の方もお気軽にご相談ください。</p>
+          </div>
+        </div>
+        <div style="display:flex;gap:18px;padding:26px;background:#fff;border-radius:18px;border:1px solid var(--line);">
+          <div class="icon-badge" style="background:var(--green-700);color:#fff;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16V6a1 1 0 0 1 1-1h10v11"/><path d="M14 9h4l3 3v4h-2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:6px;">
+            <h3 style="font-size:16.5px;color:var(--green-900);">全国対応の陸送手配</h3>
+            <p style="font-size:14px;color:var(--ink-soft);line-height:1.8;">遠方のお客様もご安心を。輸送方法は複数ご用意しておりますので、お気軽にご相談ください。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOP INTRO -->
+  <section id="shop" class="section">
+    <div class="wrap g-shop">
+      <div style="border-radius:22px;overflow:hidden;border:1px solid var(--line);">
+        <img src="assets/shop.jpg" alt="トータス 店舗外観と整備工場" style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
+      <div style="display:flex;flex-direction:column;gap:18px;">
+        <span class="eyebrow">Our Shop</span>
+        <h2 style="font-size:clamp(24px,3vw,32px);color:var(--green-900);">ゆったりくつろげる<br>店舗づくり</h2>
+        <p style="font-size:15px;color:var(--ink-soft);line-height:2;">
+          広々とした商談スペースで、ゆっくりと落ち着いてお車をご検討いただけます。スタッフ一同、心を込めてご案内いたします。
+        </p>
+        <ul style="display:flex;flex-direction:column;gap:12px;margin-top:6px;">
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:var(--ink);">
+            <span style="color:var(--green-700);font-weight:900;">✓</span>ゆったりとした商談スペースをご用意
+          </li>
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:var(--ink);">
+            <span style="color:var(--green-700);font-weight:900;">✓</span>各メーカーの新車カタログもご用意
+          </li>
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:var(--ink);">
+            <span style="color:var(--green-700);font-weight:900;">✓</span>陸運局認証工場を併設し整備も安心
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- MESSAGE -->
+  <section id="message" class="section" style="background:var(--green-900);">
+    <div class="wrap g-message">
+      <div style="display:flex;flex-direction:column;gap:14px;">
+        <span class="eyebrow" style="color:var(--accent-gold);">Message</span>
+        <h2 style="font-size:clamp(24px,3vw,32px);color:#fff;">代表挨拶</h2>
+        <div style="width:64px;height:4px;border-radius:4px;background:var(--green-700);"></div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:22px;">
+        <p style="color:rgba(255,255,255,.92);font-size:15.5px;line-height:2.1;">
+          車は、日々の暮らしを支えてくれる大切な相棒です。当社では「安心して長くお乗りいただくこと」を第一に、購入前の整備から購入後の車検・修理まで、スタッフ一同誠心誠意対応させていただいております。ローンや車の状態など、どんな些細なことでもお気軽にご相談ください。
+        </p>
+        <div style="display:flex;align-items:center;gap:14px;">
+          <img src="assets/logo.jpg" alt="" style="width:52px;height:52px;border-radius:999px;background:#fff;padding:6px;object-fit:contain;">
+          <div style="display:flex;flex-direction:column;">
+            <span class="nw" style="color:rgba(255,255,255,.7);font-size:12.5px;">代表取締役</span>
+            <strong class="nw" style="color:#fff;font-size:19px;">小浜　英樹</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVENTORY -->
+  <section id="inventory" class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Inventory</span>
+        <h2>在庫車両</h2>
+        <p>最新の在庫車両は、下記の中古車情報サイトにて随時更新しております。ぜひご覧ください。</p>
+      </div>
+      <div class="g-inventory">
+        <a href="https://www.goo-net.com/usedcar_shop/1001903/detail.html" target="_blank" rel="noopener" class="card" style="padding:32px;display:flex;flex-direction:column;gap:14px;">
+          <span class="eyebrow">Goo-net（グーネット）</span>
+          <h3 style="font-size:19px;color:var(--green-900);">グーネットで在庫を見る</h3>
+          <p style="font-size:14px;color:var(--ink-soft);">口コミ評価5.0（8件）掲載中。最新の在庫車両情報はこちらからご確認いただけます。</p>
+          <span class="nw" style="margin-top:6px;font-weight:700;color:var(--green-700);display:inline-flex;align-items:center;gap:6px;">在庫一覧を見る
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </span>
+        </a>
+        <a href="https://www.carsensor.net/shop/tottori/304116001/" target="_blank" rel="noopener" class="card" style="padding:32px;display:flex;flex-direction:column;gap:14px;">
+          <span class="eyebrow">CarSensor（カーセンサー）</span>
+          <h3 style="font-size:19px;color:var(--green-900);">カーセンサーで在庫を見る</h3>
+          <p style="font-size:14px;color:var(--ink-soft);">店舗紹介やお店からのインフォメーションもご覧いただけます。</p>
+          <span class="nw" style="margin-top:6px;font-weight:700;color:var(--green-700);display:inline-flex;align-items:center;gap:6px;">在庫一覧を見る
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOICE -->
+  <section id="voice" class="section" style="background:var(--green-50);">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Voice</span>
+        <h2>お客様の声</h2>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span style="display:flex;gap:2px;color:var(--accent-gold);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+          </span>
+          <strong style="color:var(--green-900);">5.0</strong>
+          <span class="nw" style="color:var(--ink-soft);font-size:13.5px;">グーネット口コミ 8件より</span>
+        </div>
+      </div>
+      <div class="g-voice">
+        <div class="card" style="padding:26px;display:flex;flex-direction:column;gap:12px;">
+          <span style="display:flex;gap:2px;color:var(--accent-gold);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+          </span>
+          <p style="font-size:14px;color:var(--ink);line-height:1.85;">遠方からの購入でしたが、見積もりや陸送の手配まで丁寧に対応していただき、安心してお任せできました。</p>
+          <span class="nw" style="font-size:12.5px;color:var(--ink-soft);">愛知県のお客様（グーネット口コミより）</span>
+        </div>
+        <div class="card" style="padding:26px;display:flex;flex-direction:column;gap:12px;">
+          <span style="display:flex;gap:2px;color:var(--accent-gold);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+          </span>
+          <p style="font-size:14px;color:var(--ink);line-height:1.85;">内装・外装ともにきれいな状態で納車していただき、想像以上に満足しています。ありがとうございました。</p>
+          <span class="nw" style="font-size:12.5px;color:var(--ink-soft);">鳥取県のお客様（グーネット口コミより）</span>
+        </div>
+        <div class="card" style="padding:26px;display:flex;flex-direction:column;gap:12px;">
+          <span style="display:flex;gap:2px;color:var(--accent-gold);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/></svg>
+          </span>
+          <p style="font-size:14px;color:var(--ink);line-height:1.85;">相談しやすい雰囲気で、こちらのわがままも聞いていただきました。機会があればまたお願いしたいです。</p>
+          <span class="nw" style="font-size:12.5px;color:var(--ink-soft);">ご利用のお客様（グーネット口コミより）</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPANY -->
+  <section id="company" class="section">
+    <div class="wrap g-company">
+      <div style="display:flex;flex-direction:column;gap:14px;">
+        <span class="eyebrow">Company</span>
+        <h2 style="font-size:clamp(24px,3vw,32px);color:var(--green-900);">会社概要</h2>
+        <div style="width:64px;height:4px;border-radius:4px;background:var(--green-700);"></div>
+      </div>
+      <div style="border:1px solid var(--line);border-radius:18px;overflow:hidden;">
+        <div style="display:flex;border-bottom:1px solid var(--line);">
+          <div class="nw" style="width:38%;padding:16px 20px;background:var(--green-50);font-weight:700;font-size:14px;color:var(--green-900);">屋号</div>
+          <div style="flex:1;padding:16px 20px;font-size:14px;">株式会社トータス</div>
+        </div>
+        <div style="display:flex;border-bottom:1px solid var(--line);">
+          <div class="nw" style="width:38%;padding:16px 20px;background:var(--green-50);font-weight:700;font-size:14px;color:var(--green-900);">代表者</div>
+          <div style="flex:1;padding:16px 20px;font-size:14px;">代表取締役　小浜　英樹</div>
+        </div>
+        <div style="display:flex;border-bottom:1px solid var(--line);">
+          <div class="nw" style="width:38%;padding:16px 20px;background:var(--green-50);font-weight:700;font-size:14px;color:var(--green-900);">所在地</div>
+          <div style="flex:1;padding:16px 20px;font-size:14px;">〒682-0012　鳥取県倉吉市清谷1443</div>
+        </div>
+        <div style="display:flex;border-bottom:1px solid var(--line);">
+          <div class="nw" style="width:38%;padding:16px 20px;background:var(--green-50);font-weight:700;font-size:14px;color:var(--green-900);">TEL／FAX</div>
+          <div style="flex:1;padding:16px 20px;font-size:14px;">TEL 0858-24-5071　／　FAX 0858-24-5072</div>
+        </div>
+        <div style="display:flex;border-bottom:1px solid var(--line);">
+          <div class="nw" style="width:38%;padding:16px 20px;background:var(--green-50);font-weight:700;font-size:14px;color:var(--green-900);">営業時間</div>
+          <div style="flex:1;padding:16px 20px;font-size:14px;">9:00〜17:30</div>
+        </div>
+        <div style="display:flex;border-bottom:1px solid var(--line);">
+          <div class="nw" style="width:38%;padding:16px 20px;background:var(--green-50);font-weight:700;font-size:14px;color:var(--green-900);">定休日</div>
+          <div style="flex:1;padding:16px 20px;font-size:14px;">日曜・祝日</div>
+        </div>
+        <div style="display:flex;border-bottom:1px solid var(--line);">
+          <div class="nw" style="width:38%;padding:16px 20px;background:var(--green-50);font-weight:700;font-size:14px;color:var(--green-900);">事業内容</div>
+          <div style="flex:1;padding:16px 20px;font-size:14px;">新車・中古車販売、車検・整備、修理、鈑金・塗装、買取り、カー用品販売</div>
+        </div>
+        <div style="display:flex;">
+          <div class="nw" style="width:38%;padding:16px 20px;background:var(--green-50);font-weight:700;font-size:14px;color:var(--green-900);">古物商許可</div>
+          <div style="flex:1;padding:16px 20px;font-size:14px;">鳥取県公安委員会　第7010600006579号</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCESS -->
+  <section id="access" class="section" style="background:var(--green-50);">
+    <div class="wrap g-access">
+      <div style="display:flex;flex-direction:column;gap:18px;">
+        <span class="eyebrow">Access</span>
+        <h2 style="font-size:clamp(24px,3vw,32px);color:var(--green-900);">アクセス</h2>
+        <div style="display:flex;gap:12px;align-items:flex-start;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--green-700)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <p style="font-size:15px;line-height:1.8;">〒682-0012<br>鳥取県倉吉市清谷1443</p>
+        </div>
+        <div style="display:flex;gap:12px;align-items:flex-start;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--green-700)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <p style="font-size:15px;line-height:1.8;">営業時間　9:00〜17:30<br>定休日　日曜・祝日</p>
+        </div>
+        <a href="https://www.google.com/maps/search/?api=1&query=%E9%B3%A5%E5%8F%96%E7%9C%8C%E5%80%89%E5%90%89%E5%B8%82%E6%B8%85%E8%B0%B71443" target="_blank" rel="noopener" class="btn btn-outline" style="align-self:flex-start;margin-top:8px;">
+          Googleマップで開く
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+      <div class="card" style="padding:36px;display:flex;flex-direction:column;gap:16px;align-items:flex-start;">
+        <span class="eyebrow">Contact</span>
+        <h3 style="font-size:20px;color:var(--green-900);">お車のご相談はお気軽に</h3>
+        <p style="font-size:14px;color:var(--ink-soft);line-height:1.9;">中古車のご購入、整備・車検、鈑金塗装、ローンのご相談など、どんなことでもまずはお電話ください。</p>
+        <a href="tel:0858245071" class="btn btn-primary" style="width:100%;justify-content:center;font-size:18px;padding:18px;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          0858-24-5071
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="background:var(--green-900);padding:48px 0 28px;">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:28px;">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;">
+        <div style="display:flex;align-items:center;gap:12px;">
+          <img src="assets/logo.jpg" alt="" style="height:40px;width:auto;border-radius:6px;">
+          <div style="display:flex;flex-direction:column;">
+            <strong class="nw" style="color:#fff;font-size:16px;">株式会社トータス</strong>
+            <span class="nw" style="color:rgba(255,255,255,.65);font-size:12px;">〒682-0012 鳥取県倉吉市清谷1443</span>
+          </div>
+        </div>
+        <nav style="display:flex;flex-wrap:wrap;gap:20px;">
+          <a href="#service" class="nw" style="color:rgba(255,255,255,.78);font-size:13.5px;">サービス</a>
+          <a href="#shop" class="nw" style="color:rgba(255,255,255,.78);font-size:13.5px;">店舗紹介</a>
+          <a href="#inventory" class="nw" style="color:rgba(255,255,255,.78);font-size:13.5px;">在庫車両</a>
+          <a href="#voice" class="nw" style="color:rgba(255,255,255,.78);font-size:13.5px;">お客様の声</a>
+          <a href="#company" class="nw" style="color:rgba(255,255,255,.78);font-size:13.5px;">会社概要</a>
+          <a href="#access" class="nw" style="color:rgba(255,255,255,.78);font-size:13.5px;">アクセス</a>
+        </nav>
+      </div>
+      <div style="height:1px;background:rgba(255,255,255,.14);"></div>
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;">
+        <span class="nw" style="color:rgba(255,255,255,.55);font-size:12.5px;">© 株式会社トータス</span>
+        <span class="nw" style="color:rgba(255,255,255,.4);font-size:12px;">掲載情報：goo-net／カーセンサーより</span>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  (function () {
+    var btn = document.getElementById('menuBtn');
+    var panel = document.getElementById('mobilePanel');
+    function closeMenu() {
+      panel.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    }
+    function toggleMenu() {
+      var isOpen = panel.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+    btn.addEventListener('click', toggleMenu);
+    document.querySelectorAll('.mobile-link').forEach(function (link) {
+      link.addEventListener('click', closeMenu);
+    });
+  })();
+</script>
+</body>
+</html>
